@@ -1,0 +1,153 @@
+
+body {
+
+  font-family: "copperplace", "fantasy";
+  color: #2C3639;
+  line-height: 2;
+}
+
+a{
+  text-decoration: none;
+  color:#2C3639;
+}
+a:hover{
+  color: #6E85B7;
+}
+
+hr {
+  margin: 0 auto;
+  background-color: none;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+  width: 50%;
+}
+
+table {
+  padding: 2px 3px;
+}
+
+td{
+  font-size: 1rem;
+  padding: 5px;
+}
+
+/********** CLASS SELECTORS **********/
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.title-pic{
+  border-radius: 30%;
+  margin: 50% 50% 50% 30%;
+  height: 220px;
+  width: 200px;
+}
+
+.title-description{
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.books-pic{
+  margin: 50px 40px 50px 40px;
+  border-radius: 25%;
+}
+
+
+.passions-pic{
+  width: 85%;
+  float: left;
+  margin-left: 20px;
+  
+}
+.study-pic{
+  width: 65%;
+  margin-top: 30px;
+  margin-left: 55px;
+  margin-right: 45px;
+}
+.teacher-pic{
+  width: 85%;
+  float: right;
+  margin-top: 70px;
+  margin-left: 55px;
+  margin-right: 45px;
+}
+
+.background-info {
+  text-align: left;
+}
+
+.icon-class{
+  font-size: 1.5rem;
+  color: black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.icon-class:hover{
+  color:#6E85B7;
+}
+
+.btn-space{
+  margin: 10% auto;
+}
+
+/********** ID SELECTORS **********/
+#title{
+  background-color: #B2C8DF;
+}
+
+#contact-me {
+  text-align: center;
+  
+}
+
+#contactif{
+  text-align: center;
+  height: 400px;
+  color: white;
+  background-color: #6E85B7;
+  padding-bottom: 40px;
+  padding-top: 65px;
+}
+
+
+@media (max-width: 768px)
+{
+
+
+ #title .container-fluid {
+    text-align: center;
+  }
+
+  #title .title-pic {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  }
+
+  #title .title-description {
+    margin-top: 15px;
+  }
+  
+  #contactif .container-fluid{
+    padding: 30px auto;
+    height: 400px;
+  }
+
+  #contact-me .container-fluid{
+    display: inline-block;
+    height: 1rem;
+  }
+  .books-pic{
+    margin: 0 auto;
+    border-radius: 25%;
+  }
+
+}
