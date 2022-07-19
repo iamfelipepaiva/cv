@@ -119,35 +119,3 @@ td{
 }
 
 
-@media (max-width: 768px)
-{
-
-
- #title .container-fluid {
-    text-align: center;
-  }
-
-  #title .title-pic {
-  margin-top: 10px;
-  margin-bottom: 0px;
-  }
-
-  #title .title-description {
-    margin-top: 15px;
-  }
-  
-  #contactif .container-fluid{
-    padding: 30px auto;
-    height: 400px;
-  }
-
-  #contact-me .container-fluid{
-    display: inline-block;
-    height: 1rem;
-  }
-  .books-pic{
-    margin: 0 auto;
-    border-radius: 25%;
-  }
-
-}
